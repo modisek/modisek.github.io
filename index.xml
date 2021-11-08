@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kgosi</title>
+    
+    
+    
+    <link>/</link>
+    <description>Recent content on Kgosi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;p&gt;Copyright © 2021 Kgosietsile Modise&lt;/p&gt;</copyright>
+    <lastBuildDate>Fri, 05 Nov 2021 13:51:11 +0200</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello World</title>
+      <link>/posts/hello-world/</link>
+      <pubDate>Fri, 05 Nov 2021 13:51:11 +0200</pubDate>
+      
+      <guid>/posts/hello-world/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          welcome to my blog!!
+ &amp;ldquo;You could be good today but instead you choose tomorrow&amp;rdquo; -marcus aurelias
+ 
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Hello Friend</title>
+      <link>/showcase/</link>
+      <pubDate>Wed, 17 Sep 1986 00:00:00 +0000</pubDate>
+      
+      <guid>/showcase/</guid>
+      <description>
+        
+          &lt;img src=&#34;/imgs/hello.jpg&#34;/&gt;
+          
+        
+        
+        
+          &#34;Hello, friend?&#34; That&#39;s lame. Maybe I should give you a name?
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>
