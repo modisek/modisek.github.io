@@ -1,0 +1,14 @@
+---
+title: "Kgosietsile Modise"
+draft: true
+---
+### Hi there 👋 I am kgosietsile modise a fullstack developer from botswana
+I am a Web developer that makes beautiful websites using Html5, Css3 and Javascript, React and Gatsby js, but am platform and language agnostic and have used Java spring boot for my backend, python and also android development using java
+🌱 I’m currently learning React and other frameworks that use React
+
+
+
+
+
+[linkedin](https://www.linkedin.com/in/kgosietsile-modise-18a090167/)
+[github](https://www.github.com/modisek)
