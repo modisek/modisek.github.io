@@ -10,5 +10,5 @@ I am a Web developer that makes beautiful websites using Html5, Css3 and Javascr
 
 
 
-[linkedin](https://www.linkedin.com/in/kgosietsile-modise-18a090167/)
+[linkedin](www.linkedin.com/in/kgosietsilemd)
 [github](https://www.github.com/modisek)
