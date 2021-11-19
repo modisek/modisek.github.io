@@ -21,6 +21,7 @@ check it ou at [void linux](https://voidlinux.org/)
 | term  | uxterm           |
 | Ide   | nvim + tmux      |
 | font  | terminus         |
+| bar   | dzen2            |
 
 
 ### Cwm window manager
@@ -33,5 +34,17 @@ My editor of choice is neovim, its doesnt use a lot of ram and starts up quickly
 
 ### Tmux to create an ide like setup
 tmux is used to multiplex my terminal so i have multile panes on one terminal,this allows me to have an editor in one pane and also have a terminal in which i can run commands such as launching server, testing etc
+
+### Misc
+The bar at the top is basically a bash script i wrote that is piped into a program knowns as dzen
+i prefer terminal applications to gui since they have less memory requirement
+
+The tuis and lightweight apps that i use are:
+- mpd & ncmpcpp to play music
+- zathura for viewing pdf
+- pcmanfm for viewing files 
+- imv/feh for viewng images
+- mpv for playing videos
+
 
 link to my dotfiles: [dots](https://github.com/modisek/dotfiles)
