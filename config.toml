@@ -1,4 +1,4 @@
-baseurl = "https://modisek.github.io/"
+baseurl = "https://modisek.github.io/about"
 languageCode = "en-us"
 theme = "hello-friend"
 paginate = 5
