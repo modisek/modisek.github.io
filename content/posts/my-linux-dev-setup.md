@@ -11,7 +11,9 @@ I have been using linux for a few years now and i dont see myself going back to 
  I prefer linux distributions that allow me to build my setup from scratch, they just provide the base system and i can choose what software to install, this reduces bloat, allows me to chose sooftware that is lightweight, this is importatnt because i have luckluster hardware, i use an old lenovo laptop with low Ram, and to add salt to injury the Ram is soldered into the motherboard meaning that it cant be upgraded.it was unusable with windows so i threw linux ont it and gave it new life, also utilized zram to better use the ram that is available, its barely usable but way better than when it had winows on it.The distro i went with is void linux, an independent distribution built from scrath that uses xbps as its package manager and uses runit as the init system,it has been likened to openbsd om many occasions
 
 check it ou at [void linux](https://voidlinux.org/)
-
+This is part of a series i am doing on my linux setup
+1.  > [my linux setup(overview)](#)
+2. [setting up void using ansible]({{< ref "/posts/ansible-dev-laptop.md" >}})
 ### Details of my Setup
 
 | item  | details          |
