@@ -2,7 +2,10 @@
 title: "Setting up void linux using ansible"
 date: 2021-11-27T18:13:27+02:00
 draft: false
+cover : "imgs/code.jpg"
 ---
+
+> image: https://unsplash.com/@ngeshlew
 
 Automation is all the rage nowadays with concepts like infrastructure as code being very popular in all parts of computing, and since my setup hasnt changed much in years i decided it would benefit me to automate it so that the next time i need to reinstall i would not have to install and set up everything by hand.I had already hosted my dotfiles on git and used those in my previous installs, but this time i wanted to automate the installation of the applications as well not just their settings.
 
