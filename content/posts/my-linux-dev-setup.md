@@ -1,7 +1,7 @@
 ---
 title: "My Linux Dev Setup"
 date: 2021-11-19T18:57:07+02:00
-draft: false
+draft: true
 cover : "imgs/preview.png"
 ---
 
@@ -13,7 +13,7 @@ I have been using linux for a few years now and i dont see myself going back to 
 check it ou at [void linux](https://voidlinux.org/)
 This is part of a series i am doing on my linux setup
 1.  > [my linux setup(overview)](#)
-2. [setting up void using ansible]({{< ref "/posts/ansible-dev-laptop.md" >}})
+2. [setting up linux using ansible]({{< ref "/posts/ansible-dev-laptop.md" >}})
 ### Details of my Setup
 
 | item  | details          |

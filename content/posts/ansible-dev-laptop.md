@@ -1,5 +1,5 @@
 ---
-title: "Setting up void linux using ansible"
+title: "Setting up linux using ansible"
 date: 2021-11-27T18:13:27+02:00
 draft: false
 cover : "imgs/code.jpg"
@@ -11,7 +11,7 @@ Automation is all the rage nowadays with concepts like infrastructure as code be
 
 This is part of a series i am doing on my linux setup
 1. [my linux setup(overview)](https://modisek.github.io/posts/my-linux-dev-setup/)
-2. >[setting up void linux using ansible](#)*
+2. >[setting up linux using ansible](#)*
 
 #### prerequisites
 * You need to have ansible installed
