@@ -15,7 +15,7 @@ This is part of a series i am doing on my linux setup
 
 #### prerequisites
 * You need to have ansible installed
-* Some modules are ependent on your distribution eg. for your package manager, am using xbps since i am on void linux, and this is not a tutorial for ansible
+* Some modules are dependent on your distribution eg. for your package manager, am using xbps since i am on void linux, and this is not a tutorial for ansible
 
 #### Ansible
 - set up ssh

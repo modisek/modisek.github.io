@@ -80,6 +80,9 @@ setting->pages -> sources select gh-pages
 
 #### automate deployments
 
+For my deployment i used github actions to build my webiste using hugo and after that deploy the public folder containing 
+static files for the website, this is run everytime i push to the main repository 
+
 ``` 
 vim .github/workflows/hugo.yml
 ```
@@ -122,3 +125,6 @@ jobs:
 ```
 
 make a change and commmit it to main to see the workflow being run and your site being deployed
+
+#### summary
+it was very easy to get a blog up and running using hugo, i needed something simple and there are lots of great templates to get started 
