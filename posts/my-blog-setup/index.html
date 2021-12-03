@@ -30,7 +30,8 @@ git checkout main
 
 git push
 
-</code></pre><p>set gh-pages as source</p><p>setting->pages -> sources select gh-pages</p><h4 id=automate-deployments>automate deployments</h4><pre><code>vim .github/workflows/hugo.yml
+</code></pre><p>set gh-pages as source</p><p>setting->pages -> sources select gh-pages</p><h4 id=automate-deployments>automate deployments</h4><p>For my deployment i used github actions to build my webiste using hugo and after that deploy the public folder containing
+static files for the website, this is run everytime i push to the main repository</p><pre><code>vim .github/workflows/hugo.yml
 </code></pre><pre><code>name: Hugo
 
 on:
@@ -66,4 +67,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
 
-</code></pre><p>make a change and commmit it to main to see the workflow being run and your site being deployed</p></div></div></div><footer class=footer><div class=footer__inner><div class="copyright copyright--user"><p>Copyright © 2021 Kgosietsile Modise</p></div></div></footer><script src=https://modisek.github.io/assets/main.js></script><script src=https://modisek.github.io/assets/prism.js></script></div></body></html>
+</code></pre><p>make a change and commmit it to main to see the workflow being run and your site being deployed</p><h4 id=summary>summary</h4><p>it was very easy to get a blog up and running using hugo, i needed something simple and there are lots of great templates to get started</p></div></div></div><footer class=footer><div class=footer__inner><div class="copyright copyright--user"><p>Copyright © 2021 Kgosietsile Modise</p></div></div></footer><script src=https://modisek.github.io/assets/main.js></script><script src=https://modisek.github.io/assets/prism.js></script></div></body></html>
