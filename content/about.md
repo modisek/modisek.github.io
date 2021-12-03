@@ -9,5 +9,5 @@ I am fullstack developer from botswana with an interest in cloud/devops, I know 
 
 
 
-[linkedin](www.linkedin.com/in/kgosietsilemd)
+[linkedin](https://www.linkedin.com/in/kgosietsilemd)
 [github](https://www.github.com/modisek)
