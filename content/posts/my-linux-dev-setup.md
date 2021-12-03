@@ -1,7 +1,7 @@
 ---
 title: "My Linux Dev Setup"
 date: 2021-11-19T18:57:07+02:00
-draft: true
+draft: false
 cover : "imgs/preview.png"
 ---
 
