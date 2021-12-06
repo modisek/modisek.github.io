@@ -51,7 +51,8 @@ The tuis and lightweight apps that i use are:
 - fzf to find files
 
 > definition of some terms
-  **zram** compresses stuff before its put on ram so you can fit more things in ram,makes it seem like the computer has more ram, this comes at the expense of some performance hit due to compression and decompression
+
+  >**zram** compresses stuff before its put on ram so you can fit more things in ram,makes it seem like the computer has more ram, this comes at the expense of some performance hit due to compression and decompression
   **window manager** is a lightweigt alternative to heavy desktop enviroments like gnome for example
 
 

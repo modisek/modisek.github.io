@@ -9,7 +9,7 @@ I wanted an easy and cheap way to create and host my blog site and hugo came out
 
 This are the steps i took to host my blog post
 
-#### create and host
+#### Create and host
 
 - install hugo  following instructions for your distro or operating system 
 - install and set up  git/github
@@ -46,7 +46,7 @@ hugo server -D
 
 ```
 
-create an orphan branch for github pages, using an orphan branch because it will contain simmillar content to the other branch
+create an orphan branch for github pages, using an orphan branch because it will contain content that is not simillar  to the other branch
 
 ```
 git checkout --orphan gh-pages
@@ -78,7 +78,7 @@ set gh-pages as source
 
 setting->pages -> sources select gh-pages
 
-#### automate deployments
+#### Continous deployment using Github actions
 
 For my deployment i used github actions to build my webiste using hugo and after that deploy the public folder containing 
 static files for the website, this is run everytime i push to the main repository 
@@ -126,5 +126,5 @@ jobs:
 
 make a change and commmit it to main to see the workflow being run and your site being deployed
 
-#### summary
+#### Summary
 it was very easy to get a blog up and running using hugo, i needed something simple and there are lots of great templates to get started 
