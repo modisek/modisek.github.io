@@ -32,10 +32,11 @@ Due to the low memory i chose not to use a desktop environment but rather a **wi
 
  I have been thinking of moving away from Xorg to wayland, but i have struggled to get the same experience in wayland as i do in x11, wayland and wayland compositors are still a work in progress and i havent had time to look at how to configure a wayland compositor to get the same setup am used to, but if i do move away from x11 i will try hikari since it is the spiritual successor to cwm, i have taken a look at it, the documentation on it is rather lacking.
 
-My editor of choice is neovim since it doesnt use a lot of ram and starts up quickly, with their 0.5 release neovim became even more powerful with the addition of a native lsp and tressiter for syntax highliting, also its modal style of editing is both unique an impressive , i use a colourscheme i created myself, wanted calming colours that are easy to look at for extended periods of time,the plugins that i use most is telescope, a fuzzy finder that allows me to open files very quickly
+My editor of choice is neovim since it doesnt use a lot of ram and starts up quickly, with their 0.5 release neovim became even more powerful with the addition of a native lsp and tressiter for syntax highliting, also its modal style of editing is both unique an impressive , i use a colourscheme i created myself, wanted calming colours that are easy to look at for extended periods of time,the plugins that i use most is telescope, a fuzzy finder that allows me to open files very quickly.
 
 ### Tmux to create an ide like setup
 Tmux is used to multiplex my terminal so i have multiple panes on one terminal,this allows me to have an editor in one pane and also have a terminal in which i can run commands such as launching a server, testing etc
+It can also be used to persist sessions after a terminal has been closed, for example if using ssh to remote into a machine, when the terminal is closed the ssh connection will continue to live in the background.
 
 ### Misc
 The bar at the top is basically a bash script i wrote that is piped into a program knowns as dzen
@@ -53,7 +54,7 @@ The tuis and lightweight apps that i use are:
 > definition of some terms
 
   >**zram** compresses stuff before its put on ram so you can fit more things in ram,makes it seem like the computer has more ram, this comes at the expense of some performance hit due to compression and decompression
-  **window manager** is a lightweigt alternative to heavy desktop enviroments like gnome for example
+  **window manager** is a lightweigt alternative to heavy desktop enviroments like gnome for example.
 
 
 

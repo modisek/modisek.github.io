@@ -15,14 +15,14 @@ This is part of a series i am doing on my linux setup
 
 #### prerequisites
 * You need to have ansible installed
-* Some modules are dependent on your distribution eg. for your package manager, am using xbps since i am on void linux, and this is not a tutorial for ansible
+* Some modules are dependent on your distribution eg. for your package manager, am using xbps since i am on void linux, and this is not a tutorial for ansible.
 
 #### Ansible
 - set up ssh
 I used ansible vault to encrypt ssh key and will move it to the new system
 
 - install apps
-Install all the application i will need in the new system, since am using void linux am using the xbps module, xbps being the package manager of void linux
+Install all the application i will need in the new system, since am using void linux am using the xbps module, xbps being the package manager of void linux.
 
 ```
  - name: install essesntials
@@ -94,7 +94,7 @@ Start services, in void linux services are enable by symlinks
 
 #### summary
 
-With this setup and can be up and running in a short amount of time if i needed to reinstall, this also has the advantage that its self documenting and i know exactly how i have set up my system
+With this setup and can be up and running in a short amount of time if i needed to reinstall, this also has the advantage that its self documenting and i know exactly how i have set up my system.
 
 Below is the repository for the scripts:
 [repository](https://github.com/modisek/ansible)
