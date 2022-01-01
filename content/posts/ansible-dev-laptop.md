@@ -66,7 +66,7 @@ use stow to symlink my dotfiles
     version: master
 
 - name: stow the files
-  shell: cd $HOME/dotfiles/setup.sh
+  shell: $HOME/dotfiles/setup.sh
 
 ```
 - start services
