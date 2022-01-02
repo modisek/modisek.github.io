@@ -1,0 +1,69 @@
+<!doctype html><html lang=en><head><title>My workflow ::
+Kgosi — cloud & devops</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="How to move fast in bash 1. Use an autojumper to move between directories An autojumper caches visited directories in its database and allows for direct jumping to known directories eliminating the need to type out the full path.I useone called zoxide, but they are may others worth trying out.
+ it has some sort of fuzzy pattern matching and allows me to type only part of the name of the directory  zoxide demo"><meta name=keywords content><meta name=robots content="noodp"><link rel=canonical href=https://modisek.github.io/posts/workflow/><link rel=stylesheet href=https://modisek.github.io/assets/style.css><link rel=stylesheet href=https://modisek.github.io/style.css><link rel=apple-touch-icon-precomposed sizes=144x144 href=https://modisek.github.io/img/apple-touch-icon-144-precomposed.png><link rel="shortcut icon" href=https://modisek.github.io/img/favicon.png><link href=https://modisek.github.io/assets/fonts/Inter-Italic.woff2 rel=preload type=font/woff2 as=font crossorigin><link href=https://modisek.github.io/assets/fonts/Inter-Regular.woff2 rel=preload type=font/woff2 as=font crossorigin><link href=https://modisek.github.io/assets/fonts/Inter-Medium.woff2 rel=preload type=font/woff2 as=font crossorigin><link href=https://modisek.github.io/assets/fonts/Inter-MediumItalic.woff2 rel=preload type=font/woff2 as=font crossorigin><link href=https://modisek.github.io/assets/fonts/Inter-Bold.woff2 rel=preload type=font/woff2 as=font crossorigin><link href=https://modisek.github.io/assets/fonts/Inter-BoldItalic.woff2 rel=preload type=font/woff2 as=font crossorigin><meta name=twitter:card content="summary"><meta name=twitter:title content="My workflow"><meta name=twitter:description content="How to move fast in bash 1. Use an autojumper to move between directories An autojumper caches visited directories in its database and allows for direct jumping to known directories eliminating the need to type out the full path.I useone called zoxide, but they are may others worth trying out.
+ it has some sort of fuzzy pattern matching and allows me to type only part of the name of the directory  zoxide demo"><meta property="og:title" content="My workflow"><meta property="og:description" content="How to move fast in bash 1. Use an autojumper to move between directories An autojumper caches visited directories in its database and allows for direct jumping to known directories eliminating the need to type out the full path.I useone called zoxide, but they are may others worth trying out.
+ it has some sort of fuzzy pattern matching and allows me to type only part of the name of the directory  zoxide demo"><meta property="og:type" content="article"><meta property="og:url" content="https://modisek.github.io/posts/workflow/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2022-01-02T11:25:52+02:00"><meta property="article:modified_time" content="2022-01-02T11:25:52+02:00"><meta property="og:site_name" content="Kgosi"></head><body class=dark-theme><div class=container><header class=header><span class=header__inner><a href=/about class=logo style=text-decoration:none><span class=logo__mark><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44"><path fill="none" d="M15 8l14.729 14.382L15 35.367"/></svg></span><span class=logo__text>kgosi</span>
+<span class=logo__cursor></span></a><span class=header__right><nav class=menu><ul class="menu__inner menu__inner--desktop"><li><a href=/posts>blog</a></li></ul><ul class="menu__inner menu__inner--mobile"><li><a href=/posts>blog</a></li></ul></nav><span class=menu-trigger><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg></span><span class=theme-toggle><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22 41c10.4934.0 19-8.5066 19-19C41 11.5066 32.4934 3 22 3 11.5066 3 3 11.5066 3 22s8.5066 19 19 19zM7 22C7 13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22z"/></svg></span></span></span></header><div class=content><div class=post><h1 class=post-title>My workflow</h1><div class=post-meta><span class=post-date>2022-01-02</span></div><div class=post-content><h3 id=how-to-move-fast-in-bash>How to move fast in bash</h3><h5 id=1-use-an-autojumper-to-move-between-directories>1. Use an autojumper to move between directories</h5><p>An autojumper caches visited directories in its database and allows for direct jumping to known directories eliminating the need to type out the full path.I useone called zoxide, but they are may others worth trying out.</p><ul><li>it has some sort of fuzzy pattern matching and allows me to type only part of the name of the directory</li></ul><p><a href=https://github.com/ajeetdsouza/zoxide/blob/main/contrib/tutorial.webp>zoxide demo</a></p><h5 id=2-intelligent-history-search>2. Intelligent history search</h5><p>Search in history only for commands that start with what you have typed, eg. if i type cd and use the up arrow i get commands i typed before that start with cd and can cycle betwwen them.</p><p>(this snippet should be inserted into the ~/.bashrc file)</p><pre><code># Up Arrow
+bind '&quot;\e[A&quot;: history-search-backward'
+
+# Down Arrow
+bind '&quot;\e[B&quot;: history-search-forward'
+
+</code></pre><h5 id=3-shortcuts>3. shortcuts</h5><p>Use shortcuts to move faster in bash, most common shortcuts i use:</p><ul><li>CRTL-a :start of the line</li><li>CTRL-E :end of line</li><li>CTRL-K :delete everything from the cursor to the end</li><li>!! access the last commands</li><li>can also do !!:0 to get the first word in the last command</li><li>CRTL-R for a serachable history( replace the default with fzf to have a nicer experience)</li></ul><h5 id=4-other-options-that-can-be-added-to-bash>4. other options that can be added to bash</h5><p>(this snippet should be inserted into the ~/.bashrc file)</p><pre><code>#automatically correct spelling mistakes 
+shopt -s cdspell
+shopt -s dirspell
+
+# go to a directory without starting the command with cd
+shopt -s autocd
+
+</code></pre><h5 id=4-get-a-fuzzy-finder-fzf>4. get a fuzzy finder( fzf)</h5><p>Fzf is described as a general purpose command-line fuzzy finder and it just takes lines from stdin,presents an interactive menu that can be used to select an item and that item is printed to stdout.</p><p>It is fast and can be used in scripts.It presents a list menu that can be operated using up and down arrows on the keyboard and enter to make a selection, and typing is allowed to filter through the list.</p><p>An example of a script utilizing fzf.this script used find command to return a list of directories( -type d) and their subdirectories to a depth of 2( to reduce the number of items that will be returned), then rm -rf command is run with the path of whatever directory is selected.</p><pre><code>
+selected=$(find ~/ -maxdepth 2 -type d | fzf)
+rm -rf $selected
+
+</code></pre><h4 id=my-tmux-workflow>My Tmux workflow</h4><h5 id=what-is-tmux>What is tmux?</h5><p>Tmux is a terminal multiplexer, this means that it can be used to divide a terminal window into many terminal windows and panes,and each will run a independent bash instance, so you could run vim on one pane and have another bash pane where you can run commands like starting up servers etc.</p><p>Tmux keeps all that is open in a session allowing the terminal emulator to be closed but the session remain in the background and can attached to later, this is also useful in case where you are connected throught to another host via ssh, if tmux is running on the host when you lose your ssh connection the session will keep on running on the background in the server and you can attach to it an continue where you left off.</p><p>Tmux can be scripted to open predetermined panes an windows, automating the process</p><p>tmux provides commands such as:</p><ul><li><strong>new</strong> to create session</li><li><strong>send-keys</strong> to execute commands and send key strokes</li></ul><p>this can be used to automate Tmux</p><h5 id=example>Example:</h5><ul><li>uses fzf to return list of directories containing projects</li></ul><pre><code>    selected=$(find ~/projects ~/ ~/terraform -mindepth 1 -maxdepth 1 -type d |fzf)
+    ```
+ * create session and use the name of selected directory as the session name 
+     
+</code></pre><p>SESSION=$(basename &ldquo;$selected&rdquo; )
+tmux new -s $SESSION -d
+```</p><ul><li>open the project in vim in one pane</li></ul><pre><code>
+   tmux send-keys -t $SESSION 'vim .' C-m
+
+</code></pre><ul><li>create another pane</li></ul><pre><code>
+   tmux split-window -h -t $SESSION
+
+</code></pre><ul><li>if the session with that name already exist attach to it</li></ul><pre><code>
+#!/usr/bin/env bash
+
+
+if [[ $# -eq 1 ]]; then
+    selected=$1
+else
+
+    selected=$(find ~/projects ~/ ~/terraform -mindepth 1 -maxdepth 1 -type d |fzf)
+    echo selected
+fi
+
+if [[ -z $selected ]]; then 
+    exit 0
+fi
+
+SESSION=$(basename &quot;$selected&quot; )
+
+# SESSION=${PWD##*/}
+
+SESSIONEXISTS=$(tmux list-sessions | grep $SESSION)
+
+if [&quot;$SESSIONEXISTS&quot; = &quot;&quot;]
+then
+    cd $selected
+    tmux new -s $SESSION -d
+    tmux send-keys -t $SESSION 'vim .' C-m
+    tmux split-window -h -t $SESSION
+    tmux attach -t $SESSION
+else
+    tmux attach -t $SESSION
+
+fi
+
+</code></pre><p>Tmux running with vim on one pane and running hugo local server on the other pane</p><p><img src=/imgs/vim-and-tmux.png alt="vim and tmux"></p></div></div></div><footer class=footer><div class=footer__inner><div class="copyright copyright--user"><p>Copyright © 2021 Kgosietsile Modise</p></div></div></footer><script src=https://modisek.github.io/assets/main.js></script><script src=https://modisek.github.io/assets/prism.js></script></div></body></html>
