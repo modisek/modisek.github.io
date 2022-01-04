@@ -26,7 +26,7 @@ draft: false
  - void linux(musl)
  - swaywm
  - foot terminal emulator
- > wrote about my setup here {{< ref "/posts/my-linux-dev-setup.md">}}
+ > wrote about my [setup]({{< ref "/posts/my-linux-dev-setup.md">}}) 
 
 #### Specs
 
