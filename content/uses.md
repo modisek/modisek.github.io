@@ -3,6 +3,10 @@ title: "Uses"
 draft: false
 ---
 
+
+
+![preview](/imgs/preview.png)
+
 ### Editor
 
 - vim/neovim
@@ -22,9 +26,8 @@ draft: false
  - void linux(musl)
  - swaywm
  - foot terminal emulator
+ > wrote about my setup here {{< ref "/posts/my-linux-dev-setup.md">}}
 
 #### Specs
 
 - potato 
-
-
